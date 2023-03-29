@@ -1,0 +1,37 @@
+.grid {
+	width: 300px;
+	height: 300px;
+	border: solid black 1px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid div {
+	width: 20px;
+	height: 20px;
+}
+.nav-link {
+	color: blue;
+	transition: color 0.5s ease-in-out;
+  }
+  
+  .nav-link:hover {
+	color: red;
+  }
+.invader {
+	background-color: purple;
+	border-radius: 50px;
+    background-image: url();
+}
+
+.shooter {
+	background-color: green;
+}
+
+.laser {
+	background-color: orange;
+}
+
+.boom {
+	background-color: red;
+}
